@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Ootion</title>
+</head>
+<body>
+    <form action="/server">
+    <label for="subject"><b>Select yourfavourite subject:</b></label>
+    <select name="subject" id="subject">
+        <option >--select your subject--</option>
+        <option value="Physics">Physics</option>
+        <option value="chemistry">chemistry</option>
+        <option value="Maths">Maths</option>
+        <option value="English">English</option>
+        <option value="Physical Eductaion">Physical Education</option>
+    </select>
+    <hr>
+    <label for="volume">Volume</label>
+    <input type="range" step="10" min="0" max="100" name="vol" id="Volume">
+    <button type="submit">Submit</button>
+
+    <hr>
+    <label for="About_us"><em>Write about us:</em></label>
+    <textarea name="about_us" id="About_us" cols="30" rows="10"></textarea>
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>
