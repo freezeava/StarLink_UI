@@ -10,6 +10,7 @@ console.log(str1.indexOf("ove"));//2
 console.log(str1.indexOf("code"));//-1
 
 
+
 //slice Method
 
 
