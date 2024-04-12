@@ -1,0 +1,54 @@
+#outer{
+
+    height: 800px;
+    width: 80%;
+    background-color: antiquewhite;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    flex-wrap: wrap;
+    
+
+
+    
+   
+}
+
+div{
+    border: 3px solid black;
+    align-items: center;
+    
+}
+
+#One{
+    background-color: rgb(173, 138, 91);
+    height: 400px;
+    width: 300px;
+    
+}
+
+#Two{
+    background-color: rgb(174, 143, 203);
+    height: 100px;
+    width: 100px;
+}
+
+#Three{
+    background-color: rgb(205, 114, 114);
+    height: 100px;
+    width: 100px;
+    align-self: center;
+}
+
+#Four{
+    background-color: rgb(113, 58, 164);
+    height: 100px;
+    width: 100px;
+
+}
+#Five{
+    background-color: rgb(76, 156, 156);
+    height: 100px;
+    width: 100px;
+}
