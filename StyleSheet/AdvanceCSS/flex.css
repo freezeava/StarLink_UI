@@ -1,0 +1,28 @@
+#inner{
+ height: 800px;
+ width: 80%;
+    background-color: rgb(224, 229, 131);
+    margin: 10px auto;
+    border: 3px solid black;
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap; 
+    align-content:space-around;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+#inner div{
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    text-align: center;
+    color: aliceblue;
+    /* align-content: center; */
+
+} 
