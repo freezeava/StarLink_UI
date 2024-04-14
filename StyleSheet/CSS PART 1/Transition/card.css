@@ -1,0 +1,35 @@
+#card1{
+    height: 300px;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    margin-top: 30px;
+    text-align: center;
+    display:inline-block;
+    
+   
+}
+
+#card2{
+    height: 300px;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    margin-top: 50px;
+    text-align: center;
+    display:inline-block;
+    margin-left: 30px;
+    
+    
+    
+}
+
+div:hover{
+    box-shadow: 5px 5px 10px black;
+    transition: 2s ease-in-out;
+    transform: scale(1.2);
+}
+
+

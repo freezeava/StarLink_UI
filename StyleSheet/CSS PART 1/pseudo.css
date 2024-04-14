@@ -1,0 +1,6 @@
+/* h1:nth-of-type(2n){
+    color: blueviolet;
+} */
+h1::selection{
+    background-color: rgb(73, 165, 42);
+}
