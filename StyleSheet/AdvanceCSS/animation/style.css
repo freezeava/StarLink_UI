@@ -1,0 +1,39 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    animation: fontchange 5s linear infinite;
+}
+
+@keyframes fontchange{
+    from{
+        font-size: 200px;
+        background-color: rgb(24, 227, 48);
+    }
+    to{
+        font-size: 40px;
+        background-color: blue;
+    }
+}
+
+
+@keyframes fontchange{
+    0%{
+        font-size: 20px;
+        background-color: rgb(24, 227, 48);
+    }
+    50%{
+        font-size: 40px;
+        background-color: rgb(255, 187, 0);
+    }
+
+    75%{
+        font-size: 60px;
+        background-color: blue;
+    }
+
+    100%{
+        font-size: 80px;
+        background-color: rgb(255, 0, 0);
+    }
+}
