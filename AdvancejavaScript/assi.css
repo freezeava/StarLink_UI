@@ -1,0 +1,12 @@
+.redtxt{
+    color:red;
+    background-color: yellow;
+}
+.bluetxt{
+    color:blue;
+    background-color: yellow;
+}
+.borderprp{
+    border: 5px solid black;
+    background-color: pink;
+}
